@@ -1,0 +1,10 @@
+version: "2"
+domain: k8s.honestbee.io
+repo: bucket-controller
+resources:
+- group: storage
+  version: v1
+  kind: Bucket
+- group: storage
+  version: v1
+  kind: Bucket

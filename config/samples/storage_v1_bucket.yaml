@@ -1,0 +1,8 @@
+apiVersion: storage.k8s.honestbee.io/v1
+kind: Bucket
+metadata:
+  name: bucket-sample
+spec:
+  bucketName: sf-bucket-sample
+  region: eu-west-1
+  forceDelete: true
